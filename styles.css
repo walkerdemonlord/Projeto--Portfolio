@@ -13,7 +13,7 @@ body {
 }
 
 nav.menu-lateral {
-    width: 300px;
+    width: 100px;
     height: 100%;
     background-color: #202020;
     position: fixed;
@@ -35,12 +35,13 @@ nav.menu-lateral {
     color: whitesmoke;  
     font-size: 24px;  
     cursor: pointer;
+    margin-left: 5px;
 }
 
 ul {
     height: 100%;
     list-style-type: none;
-    align-items: flex-start;
+    align-items: center;
 }
 
 ul li.item-menu:hover {
@@ -84,4 +85,8 @@ div.redes-sociais {
 div.redes-sociais a.rede {
     color: whitesmoke;  
     font-size: 20px;
+}
+
+nav.menu-lateral:hover {
+    width: 300px;
 }
